@@ -792,13 +792,16 @@ h4 {
 }
 
 @media (max-width: 480px) {
+  .nav__link--btn:link, .nav__link--btn:visited {
+    padding: 0.6rem 2rem;
+}
   .header__title {
     display: block;
 }
 .nav {
   display: block;
   height: 10rem;
-  width: 95%;
+  width: 100%;
   padding: 0;
 }
 .header {
@@ -809,7 +812,7 @@ h4 {
 }
 .btn {
   padding: 1rem 2rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .operations__tab {
   margin-right: 0;
@@ -832,5 +835,14 @@ h4 {
 .section--sign-up .btn {
   font-size: 1.4rem;
   padding: 2rem 2rem;
+}
+.modal {
+  max-width: 40rem;
+  padding: 1rem 2rem;
+}
+
+.modal__form input {
+  font-size: 1.3rem;
+  padding: 1.3rem 1.5rem;
 }
 }
