@@ -792,4 +792,45 @@ h4 {
 }
 
 @media (max-width: 480px) {
+  .header__title {
+    display: block;
+}
+.nav {
+  display: block;
+  height: 10rem;
+  width: 95%;
+  padding: 0;
+}
+.header {
+  height: 90vh;
+}
+.section__header {
+  font-size: 2.6rem;
+}
+.btn {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+.operations__tab {
+  margin-right: 0;
+}
+.operations__content {
+  font-size: 1.6rem;
+  padding: 5rem 1rem;
+}
+.testimonial__location {
+  font-size: 1.1rem;
+}
+
+.testimonial {
+  width: 69%;
+}
+
+.dots {
+  bottom: 1%;
+}
+.section--sign-up .btn {
+  font-size: 1.4rem;
+  padding: 2rem 2rem;
+}
 }
